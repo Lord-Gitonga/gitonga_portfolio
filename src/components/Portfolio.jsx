@@ -1,36 +1,27 @@
 import React from "react";
-import arrayDestruct from "../assets/portfolio/arrayDestruct.jpg";
-import installNode from "../assets/portfolio/installNode.jpg";
-import navbar from "../assets/portfolio/navbar.jpg";
-import reactParallax from "../assets/portfolio/reactParallax.jpg";
-import reactSmooth from "../assets/portfolio/reactSmooth.jpg";
-import reactWeather from "../assets/portfolio/reactWeather.jpg";
+import Weather from "../assets/portfolio/weather.jpg";
+import shopping from "../assets/portfolio/shopping.jpg";
+import meeting from "../assets/portfolio/meeting.png";
 
 const Portfolio = () => {
   const portfolios = [
     {
       id: 1,
-      src: arrayDestruct,
+      src: shopping,
+      liveUrl: "https://lord-gitonga.github.io/soko/", // Replace with your live URL
+      githubUrl: "https://github.com/Lord-Gitonga/soko", // Replace with your GitHub repository URL
     },
     {
       id: 2,
-      src: reactParallax,
+      src: Weather,
+      liveUrl: "https://example.com/weather-demo", // Replace with your live URL
+      githubUrl: "https://github.com/yourusername/weather-app", // Replace with your GitHub repository URL
     },
     {
       id: 3,
-      src: navbar,
-    },
-    {
-      id: 4,
-      src: reactSmooth,
-    },
-    {
-      id: 5,
-      src: installNode,
-    },
-    {
-      id: 6,
-      src: reactWeather,
+      src: meeting,
+      liveUrl: "https://moringa-alumni-app-kizi.onrender.com/", // Replace with your live URL
+      githubUrl: "https://github.com/yourusername/meeting-app", // Replace with your GitHub repository URL
     },
   ];
 
@@ -48,7 +39,7 @@ const Portfolio = () => {
         </div>
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
-          {portfolios.map(({ id, src }) => (
+          {portfolios.map(({ id, src, liveUrl, githubUrl }) => (
             <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
               <img
                 src={src}
@@ -56,12 +47,22 @@ const Portfolio = () => {
                 className="rounded-md duration-200 hover:scale-105"
               />
               <div className="flex items-center justify-center">
-                <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
+                <a
+                  href={liveUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105"
+                >
                   Demo
-                </button>
-                <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
+                </a>
+                <a
+                  href={githubUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105"
+                >
                   Code
-                </button>
+                </a>
               </div>
             </div>
           ))}

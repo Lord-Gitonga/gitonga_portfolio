@@ -1,5 +1,5 @@
 import React from "react";
-import HeroImage from "../assets/heroImage.png";
+import HeroImage from "../assets/Morris.png";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import { Link } from "react-scroll";
 
@@ -10,14 +10,15 @@ const Home = () => {
       className="h-screen w-full bg-gradient-to-b from-black via-black to-gray-800"
     >
       <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
-        <div className="flex flex-col justify-center h-full">
-          <h2 className="text-4xl sm:text-7xl font-bold text-white">
+        <div className="flex flex-col justify-center h-full md:w-1/2">
+          <h2 className="text-4xl sm:text-6xl font-bold text-white">
             I'm a Full Stack Developer
           </h2>
           <p className="text-gray-500 py-4 max-w-md">
-          Welcome to my digital space! I'm Morris Gitonga, a passionate and results-driven software engineer based in Nairobi, Kenya. 
-          With over 2 years of hands-on experience in the ever-evolving tech landscape, 
-          I thrive on turning ideas into functional and innovative solutions.
+            Welcome to my digital space! I'm Morris Gitonga, a passionate and
+            results-driven software engineer based in Nairobi, Kenya. With over
+            2 years of hands-on experience in the ever-evolving tech landscape,
+            I thrive on turning ideas into functional and innovative solutions.
           </p>
 
           <div>
@@ -35,11 +36,11 @@ const Home = () => {
           </div>
         </div>
 
-        <div>
+        <div className="md:w-1/2 md:pl-8">
           <img
             src={HeroImage}
             alt="my profile"
-            className="rounded-2xl mx-auto w-2/3 md:w-full"
+            className="rounded-2xl mx-auto w-full h-auto md:w-2/3"
           />
         </div>
       </div>
