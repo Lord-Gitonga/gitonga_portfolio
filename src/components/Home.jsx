@@ -15,9 +15,9 @@ const Home = () => {
             I'm a Full Stack Developer
           </h2>
           <p className="text-gray-500 py-4 max-w-md">
-            I have 8 years of experience building and desgining software.
-            Currently, I love to work on web application using technologies like
-            React, Tailwind, Next JS and GraphQL.
+          Welcome to my digital space! I'm Morris Gitonga, a passionate and results-driven software engineer based in Nairobi, Kenya. 
+          With over 2 years of hands-on experience in the ever-evolving tech landscape, 
+          I thrive on turning ideas into functional and innovative solutions.
           </p>
 
           <div>

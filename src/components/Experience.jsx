@@ -4,10 +4,11 @@ import html from "../assets/html.png";
 import css from "../assets/css.png";
 import javascript from "../assets/javascript.png";
 import reactImage from "../assets/react.png";
-import nextjs from "../assets/nextjs.png";
-import graphql from "../assets/graphql.png";
+import { DiRuby } from "react-icons/di";
+import { DiPython } from "react-icons/di";
 import github from "../assets/github.png";
 import tailwind from "../assets/tailwind.png";
+import { DiDjango } from 'react-icons/di';
 
 const Experience = () => {
   const techs = [
@@ -43,14 +44,14 @@ const Experience = () => {
     },
     {
       id: 6,
-      src: nextjs,
-      title: "Next JS",
+      src: DiRuby,
+      title: "Ruby",
       style: "shadow-white",
     },
     {
       id: 7,
-      src: graphql,
-      title: "GraphQL",
+      src: DiPython,
+      title: "Python",
       style: "shadow-pink-400",
     },
     {
@@ -59,6 +60,13 @@ const Experience = () => {
       title: "GitHub",
       style: "shadow-gray-400",
     },
+    {
+      id: 9,
+      src: DiDjango,
+      title: "Django",
+      style: "shadow-gray-400",
+    },
+    
   ];
 
   return (

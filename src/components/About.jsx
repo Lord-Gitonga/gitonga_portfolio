@@ -14,23 +14,22 @@ const About = () => {
         </div>
 
         <p className="text-xl mt-20">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius,
-          deserunt illum mollitia officiis qui exercitationem perferendis neque
-          quasi a recusandae necessitatibus tempora iusto! Blanditiis error
-          iste, totam fugiat recusandae rerum laborum perferendis molestiae
-          aperiam asperiores nemo. Magni dolor maxime debitis vitae, eaque hic
-          ab mollitia voluptatibus, a nostrum eveniet laborum!
+        My journey in software engineering began with a fascination for problem-solving and a love for creating digital experiences that leave a lasting impact. 
+        From designing responsive user interfaces to architecting robust backend systems, 
+        I am driven by the pursuit of excellence and a commitment to staying on the cutting edge of technology.
         </p>
 
         <br />
 
         <p className="text-xl">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum
-          pariatur, vel similique sint, nobis aspernatur ut praesentium
-          explicabo ipsam aliquid quasi laboriosam et culpa possimus repudiandae
-          quisquam ullam maiores ab unde. Fugiat odio mollitia nemo alias.
-          Commodi facilis atque nulla vero voluptatem explicabo. Quibusdam,
-          magni quo! Eum cupiditate debitis labore.
+        My true passion lies in web development, where I utilize technologies like React, TypeScript, and JavaScript to create seamless and visually appealing digital experiences. 
+        Additionally, I bring the power of server-side frameworks such as Ruby on Rails, Python's Flask and Django, and PHP's Laravel to ensure robust backend architecture.
+        </p>
+
+        <br></br>
+        <p className="text-xl">
+        Beyond the code, I am dedicated to bridging the gap between technology and people.
+        I believe in effective communication, collaborative problem-solving, and delivering solutions that not only meet technical requirements but also resonate with end-users.
         </p>
       </div>
     </div>
