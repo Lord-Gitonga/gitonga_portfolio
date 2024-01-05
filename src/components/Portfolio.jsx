@@ -2,27 +2,35 @@ import React from "react";
 import Weather from "../assets/portfolio/weather.jpg";
 import shopping from "../assets/portfolio/shopping.jpg";
 import meeting from "../assets/portfolio/meeting.png";
-
+import blog from "../assets/portfolio/blog.jpg";
 const Portfolio = () => {
   const portfolios = [
-    {
+        {
       id: 1,
+      src: meeting,
+      liveUrl: "https://moringa-alumni-app-kizi.onrender.com/", // Replace with your live URL
+      githubUrl: "https://github.com/wycliffe-kip/moringa-alumni-app/tree/gitonga", // Replace with your GitHub repository URL
+    },
+
+    {
+      id: 2,
+      src: blog,
+      liveUrl: "https://flexprimer.com", // Replace with your live URL
+      githubUrl: "blog-app", // Replace with your GitHub repository URL
+    },
+    {
+      id: 3,
+      src: Weather,
+      liveUrl: "https://lord-gitonga.github.io/Weather-App/", // Replace with your live URL
+      githubUrl: "https://github.com/Lord-Gitonga/Weather-App", // Replace with your GitHub repository URL
+    },
+    {
+      id: 4,
       src: shopping,
       liveUrl: "https://lord-gitonga.github.io/soko/", // Replace with your live URL
       githubUrl: "https://github.com/Lord-Gitonga/soko", // Replace with your GitHub repository URL
     },
-    {
-      id: 2,
-      src: Weather,
-      liveUrl: "https://example.com/weather-demo", // Replace with your live URL
-      githubUrl: "https://github.com/yourusername/weather-app", // Replace with your GitHub repository URL
-    },
-    {
-      id: 3,
-      src: meeting,
-      liveUrl: "https://moringa-alumni-app-kizi.onrender.com/", // Replace with your live URL
-      githubUrl: "https://github.com/yourusername/meeting-app", // Replace with your GitHub repository URL
-    },
+    
   ];
 
   return (
